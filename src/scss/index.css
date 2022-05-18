@@ -1,0 +1,113 @@
+html,
+body {
+  height: 100%;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #A12568;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+
+* body {
+  font-size: 1em;
+  background-color: #2A0944;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+* body header {
+  margin: 0 auto;
+  padding-top: 1em;
+  height: 10%;
+}
+
+* body main {
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+* body main * {
+  margin: 5px 0;
+}
+
+* body main h1 {
+  font-size: 2em;
+}
+
+* body main button {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  -webkit-box-shadow: 0;
+          box-shadow: 0;
+  cursor: pointer;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+* body main .unlocked {
+  background-color: #fe7060;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+* body main .unlocked object {
+  padding-left: 20px;
+}
+
+* body main .unlocked h3 {
+  margin-top: 30px;
+  color: black;
+}
+
+* body main .locked {
+  background-color: #C2FE06;
+}
+
+* body footer {
+  height: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  padding-bottom: 1em;
+}
+/*# sourceMappingURL=index.css.map */
