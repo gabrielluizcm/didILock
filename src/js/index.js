@@ -9,7 +9,7 @@ class LockButton {
     [this.icon, this.text] = this.button.children;
     this.lastLock = localStorage.getItem('lastLock');
 
-    // this.#checkInitialStorage();
+    this.#checkInitialStorage();
   }
 
   switchLock() {
@@ -51,7 +51,7 @@ class LockButton {
       if (getIsoDateFromString(this.lastLock) < getIsoDate())
         this.#removeLock();
       else
-        this.unlockButton();
+        this.lockButton();
   }
 }
 
